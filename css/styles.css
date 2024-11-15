@@ -1,0 +1,34 @@
+ul,
+ol,
+li {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  width: 360px;
+  height: 200px;
+}
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+
+  margin-top: 24px;
+}
+.basicLightbox {
+  background: rgba(46, 47, 66, 0.8);
+}
+.modal-image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
